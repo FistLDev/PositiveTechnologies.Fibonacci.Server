@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PositiveTechnologies.FibonacciServer.Presentation", "PositiveTechnologies.FibonacciServer.Presentation\PositiveTechnologies.FibonacciServer.Presentation.csproj", "{4C6AA29D-1DFC-4D04-8751-3FFE67EADCA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PositiveTechnologies.FibonacciServer.Domain", "PositiveTechnologies.FibonacciServer.Domain\PositiveTechnologies.FibonacciServer.Domain.csproj", "{9B595DBA-4D88-4FF7-BF95-F68E495629F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PositiveTechnologies.FibonacciServer.DomainServices", "PositiveTechnologies.FibonacciServer.DomainServices\PositiveTechnologies.FibonacciServer.DomainServices.csproj", "{6FEB45AB-4D06-49DB-B273-BAF29DCE95F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PositiveTechnologies.FibonacciServer.Infrastructure", "PositiveTechnologies.FibonacciServer.Infrastructure\PositiveTechnologies.FibonacciServer.Infrastructure.csproj", "{C3E987A7-66A1-4C9D-96D1-81255E864986}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FE940673-6466-4B52-AA45-47DBDB174055}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PositiveTechnologies.Fibonacci.Server.UnitTests", "PositiveTechnologies.Fibonacci.Server.UnitTests\PositiveTechnologies.Fibonacci.Server.UnitTests.csproj", "{84F1CA77-B2E8-41C9-81CF-ED4EB29A00A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C6AA29D-1DFC-4D04-8751-3FFE67EADCA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6AA29D-1DFC-4D04-8751-3FFE67EADCA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6AA29D-1DFC-4D04-8751-3FFE67EADCA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6AA29D-1DFC-4D04-8751-3FFE67EADCA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B595DBA-4D88-4FF7-BF95-F68E495629F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B595DBA-4D88-4FF7-BF95-F68E495629F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B595DBA-4D88-4FF7-BF95-F68E495629F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B595DBA-4D88-4FF7-BF95-F68E495629F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FEB45AB-4D06-49DB-B273-BAF29DCE95F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FEB45AB-4D06-49DB-B273-BAF29DCE95F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FEB45AB-4D06-49DB-B273-BAF29DCE95F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FEB45AB-4D06-49DB-B273-BAF29DCE95F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3E987A7-66A1-4C9D-96D1-81255E864986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E987A7-66A1-4C9D-96D1-81255E864986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E987A7-66A1-4C9D-96D1-81255E864986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E987A7-66A1-4C9D-96D1-81255E864986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F1CA77-B2E8-41C9-81CF-ED4EB29A00A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F1CA77-B2E8-41C9-81CF-ED4EB29A00A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F1CA77-B2E8-41C9-81CF-ED4EB29A00A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F1CA77-B2E8-41C9-81CF-ED4EB29A00A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84F1CA77-B2E8-41C9-81CF-ED4EB29A00A0} = {FE940673-6466-4B52-AA45-47DBDB174055}
+	EndGlobalSection
+EndGlobal
